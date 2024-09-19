@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Medium.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.325);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo{
+    height: 80px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Inspiration", cursive;
+}
+
+.main{
+    height:350px;
+    width: 450px;
+    margin: 60px 100px ;
+}
+
+.welcomep{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family:poppins;
+}
+
+.paragraph{
+    font-size:20px;
+    margin-bottom: 20px;
+    font-family:poppins;
+}
+
+.projects{
+    height:50px;
+    
+}
+
+.button-projects{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    display: block;
+    text-decoration:none;
+    color:white;
+    font-family:poppins;
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 2px solid black ;
+    transition:2ms;
+    
+}
+
+.button-projects:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacts{
+    height: 250px;
+    width: 80px; 
+    display: block;
+    border-radius: 24px;
+    position: fixed;
+    right: 50px;
+    top: 35%;
+    border: 2px solid rgba(0, 0, 0, 0.325)  ;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contacts a{
+    width: 70px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px auto;
+}
+
+.contacts a img{
+    width:50px;
+    height:50px;
+    
+}
